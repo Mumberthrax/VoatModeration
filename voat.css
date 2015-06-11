@@ -1,0 +1,29 @@
+[href="/sidebar"]:after { content: url(%%MvN3v1lG%%) }
+
+
+/* Change the description of "subscribers" and "users here now"*/
+/* Removes the "subscribers" */
+.subscribers .word {
+    display: none;
+      }
+.subscribers .number::before {
+    content: "About ";
+      }
+
+/* Changes the subscribers to what ever I want */
+    .subscribers .number::after {
+    content: " subscribers"
+      }
+
+/* Removes "users here now"*/
+    .users-online .word {
+    display: none
+      }
+
+/*Changes the "users here now" to whatever I want */
+    .users-online .number::before {
+    content: "   "
+      }
+    .users-online .number::after {
+    content: " are online"
+                }
